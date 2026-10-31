@@ -1,0 +1,24 @@
+test_embedded_json_cannot_close_script (test_dashboard.DashboardTests.test_embedded_json_cannot_close_script) ... ok
+test_offline_page_contains_all_components_and_explicit_gap (test_dashboard.DashboardTests.test_offline_page_contains_all_components_and_explicit_gap) ... ok
+test_real_calibration_is_before_display_and_no_lookahead (test_dashboard.DashboardTests.test_real_calibration_is_before_display_and_no_lookahead) ... ok
+test_empty_calibration_rejected (test_dashboard.SignalTests.test_empty_calibration_rejected) ... ok
+test_exact_thresholds_and_missing_values (test_dashboard.SignalTests.test_exact_thresholds_and_missing_values) ... ok
+test_headline_follows_signal_and_identifies_amber_driver (test_dashboard.SignalTests.test_headline_follows_signal_and_identifies_amber_driver) ... ok
+test_percentile_interpolation (test_dashboard.SignalTests.test_percentile_interpolation) ... ok
+test_previous_session_change_units_and_missing_values (test_dashboard.SignalTests.test_previous_session_change_units_and_missing_values) ... ok
+test_yield_change_units_endpoints_and_price_equality (test_dashboard.SignalTests.test_yield_change_units_endpoints_and_price_equality) ... ok
+test_yield_threshold_boundary_and_nonpositive_changes (test_dashboard.SignalTests.test_yield_threshold_boundary_and_nonpositive_changes) ... ok
+test_conflicting_duplicate_blocks (test_pipeline.FailureTests.test_conflicting_duplicate_blocks) ... ok
+test_failed_schema_preserves_last_good_and_raw (test_pipeline.FailureTests.test_failed_schema_preserves_last_good_and_raw) ... ok
+test_missing_expected_session_blocks (test_pipeline.FailureTests.test_missing_expected_session_blocks) ... ok
+test_rejects_and_missing_reconcile (test_pipeline.FailureTests.test_rejects_and_missing_reconcile) ... ok
+test_mean_window_and_warmup (test_pipeline.MetricTests.test_mean_window_and_warmup) ... ok
+test_missing_session_not_bridged (test_pipeline.MetricTests.test_missing_session_not_bridged) ... ok
+test_return (test_pipeline.MetricTests.test_return) ... ok
+test_sample_volatility_and_warmup (test_pipeline.MetricTests.test_sample_volatility_and_warmup) ... ok
+test_real_data_independent_recalculation_and_repeatability (test_pipeline.SnapshotTests.test_real_data_independent_recalculation_and_repeatability) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.439s
+
+OK
