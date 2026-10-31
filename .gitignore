@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.run.lock
+*.tmp
+dashboard.tmp.html
+test_outputs/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
