@@ -1,0 +1,47 @@
+{
+  "run_id": "20261031T120304_726fc0e3",
+  "ingested_at_utc": "2026-10-31T12:03:04.752083+00:00",
+  "status": "SUCCESS",
+  "acquisition": "supplied_local_csv_snapshot",
+  "calendar": "Nasdaq 2026 official full-day closures",
+  "calendar_url": "https://www.nasdaqtrader.com/trader.aspx?id=calendar",
+  "observation_date_basis": "US date labels; America/New_York session calendar",
+  "publication_time_available": false,
+  "profiles": {
+    "DGS10": {
+      "input_rows": 1305,
+      "valid_rows": 1249,
+      "missing_rows": 56,
+      "rejected_rows": 0,
+      "date_min": "2021-10-26",
+      "date_max": "2026-10-26"
+    },
+    "NASDAQCOM": {
+      "input_rows": 1304,
+      "valid_rows": 1255,
+      "missing_rows": 49,
+      "rejected_rows": 0,
+      "date_min": "2021-10-26",
+      "date_max": "2026-10-26"
+    }
+  },
+  "inputs": {
+    "DGS10": {
+      "file": "raw/DGS10.csv",
+      "sha256": "d35571a9655260fe048c37b1c5764876b672d45eac0e407c1d71aeb6b8f6f073",
+      "bytes": 20679,
+      "metadata_url": "https://fred.stlouisfed.org/series/DGS10"
+    },
+    "NASDAQCOM": {
+      "file": "raw/NASDAQCOM.csv",
+      "sha256": "ee3c88e6c0b8e374244d25eb12a02898a96b49d830ebb6c35383174be876a4ce",
+      "bytes": 26970,
+      "metadata_url": "https://fred.stlouisfed.org/series/NASDAQCOM"
+    }
+  },
+  "analysis_start": "2026-04-01",
+  "snapshot_end": "2026-10-26",
+  "output_rows": 144,
+  "serving_rows": 63,
+  "event_count": 110
+}

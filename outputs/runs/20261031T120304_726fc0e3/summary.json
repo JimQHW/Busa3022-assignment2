@@ -1,0 +1,53 @@
+{
+  "analysis_start": "2026-04-01",
+  "snapshot_end": "2026-10-26",
+  "display_start": "2026-07-29",
+  "display_calendar_days": 90,
+  "scheduled_sessions": 144,
+  "display_sessions": 63,
+  "display_missing_yield": 1,
+  "macro_missing_dates": [
+    "2026-10-12"
+  ],
+  "valid_macro_non_market_dates": [
+    "2026-04-03"
+  ],
+  "events_by_type": {
+    "MISSING_VALUE": 105,
+    "YIELD_MISSING_ON_MARKET_SESSION": 1,
+    "NON_SESSION_RECORD": 4
+  },
+  "latest_metrics": {
+    "date": "2026-10-26",
+    "nasdaq_close": 26169.38,
+    "treasury_yield_pct": 5.0,
+    "yield_missing": false,
+    "nasdaq_ma20": 26829.241,
+    "nasdaq_return_1d": 0.008246472594849452,
+    "nasdaq_volatility_14d": 0.011851882803926808
+  },
+  "source_profiles": {
+    "DGS10": {
+      "input_rows": 1305,
+      "valid_rows": 1249,
+      "missing_rows": 56,
+      "rejected_rows": 0,
+      "date_min": "2021-10-26",
+      "date_max": "2026-10-26"
+    },
+    "NASDAQCOM": {
+      "input_rows": 1304,
+      "valid_rows": 1255,
+      "missing_rows": 49,
+      "rejected_rows": 0,
+      "date_min": "2021-10-26",
+      "date_max": "2026-10-26"
+    }
+  },
+  "limitations": [
+    "Local historical snapshot; no network acquisition or scheduler implemented",
+    "Two upstream series share the FRED distribution platform",
+    "Same-date retrospective alignment is not a point-in-time backtest",
+    "Calendar checked only for the 2026 calculation interval"
+  ]
+}

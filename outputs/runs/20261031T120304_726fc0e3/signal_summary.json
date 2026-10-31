@@ -1,0 +1,20 @@
+{
+  "metric": "Equity trend and 20-session Treasury yield rise",
+  "yield_threshold_bps": 17.0,
+  "raw_p80_bps": 17.0,
+  "calibration_start": "2026-04-30",
+  "calibration_end": "2026-07-28",
+  "calibration_observations": 61,
+  "percentiles": [
+    80
+  ],
+  "method": "Linear interpolation at (n - 1) * percentile",
+  "rule": "A: close < MA20; B: 20-session yield change > 0 and >= max(0, prior P80). Zero flags GREEN; one AMBER; two RED; missing input UNAVAILABLE.",
+  "counts": {
+    "RED": 9,
+    "AMBER": 34,
+    "GREEN": 19,
+    "UNAVAILABLE": 1
+  },
+  "latest": "AMBER"
+}
